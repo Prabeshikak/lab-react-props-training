@@ -36,3 +36,6 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.card {
+  display: "flex";
+}
