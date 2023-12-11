@@ -1,6 +1,7 @@
 import "./App.css";
 import IdCard from "./components/IdCard";
 import Greetings from "./components/Greetings";
+import Random from "./components/Random";
 
 function App() {
   const birthDate = new Date("190-01-01");
@@ -27,6 +28,11 @@ function App() {
         <h2>Greetings</h2>
         <Greetings lang="de">Ludwig</Greetings>
         <Greetings lang="fr">François</Greetings>
+      </div>
+      <div>
+        <h2>Random</h2>
+        <Random min={1} max={6} />
+        <Random min={1} max={100} />
       </div>
     </div>
   );
