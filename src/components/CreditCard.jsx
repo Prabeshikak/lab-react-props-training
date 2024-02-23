@@ -10,6 +10,8 @@ function CreditCard({
 }) {
   const lastFourDigits = number.slice(-4);
   const cardStyle = {
+    display: "flex",
+    flexDirection: "row",
     backgroundColor: bgColor,
     color: color,
     padding: "20px",
